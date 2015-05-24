@@ -1,0 +1,104 @@
+@media screen  and (max-width:1920px) and (max-height:1080px) {
+	html{
+	
+    padding : 0px;
+    margin : 0px;
+    border : 0px;
+    height:100%;
+}
+
+body {
+	
+    padding : 0px;
+    margin : 0px;
+    border : 0px;  
+    height:100%;
+}
+#page_header{
+  margin:0px;
+  box-shadow: 0px 2px 1px black;
+  height:30%;
+  
+}
+.banner{
+  margin:0px;
+  border:0px;
+  width:100%;
+
+  height:30%;	
+  box-shadow: 0px 2px 1px black;
+  z-index:-100;
+	}
+#header_login_form{
+ width:30%;
+  font-size:0.8em;
+margin:0px;
+ 
+}
+#popup_signup_form_container	{
+  
+    height:165px;
+    width:300px;    
+    
+    background-color:blue;
+    position:absolute;
+    left:200px;
+    bottom:270px;
+    box-shadow:-5px 5px 10px black;
+    z-index:10;
+    
+    
+}
+#popup_signup_form{
+     
+    padding:8px;
+}
+
+#popup_signup_form button{
+
+    
+    
+    
+    
+}
+#popup_signup_form input {
+    
+    
+}
+#page_header_nav{
+margin:0px;
+}
+#page_header_nav ul li {
+    
+ list-style:none;
+ display:inline;
+}
+#page_header_nav ul li:nth-child(n+2) {
+ margin-left: 5px;
+}
+#page_header_nav ul li a{
+ text-decoration : none
+}
+.hidden_list{
+    
+ display:none;
+ 
+}
+
+#page_body{
+	
+	margin:0px;
+	border:0px;
+	width:100%;
+	height:70%;
+background-color:red;
+ 
+ 
+	}
+	#page_footer{
+	margin:0px;
+	border:0px;
+		width:100%;
+		height:40%;
+	}
+	}
